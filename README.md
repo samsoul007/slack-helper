@@ -10,7 +10,7 @@ A Nodejs module facilitating Slack messaging.
 
 # installation
 
-`npm install --save slack-helper`
+`npm install --save slack-msg-helper`
 
 # usage
 

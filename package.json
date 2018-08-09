@@ -1,5 +1,5 @@
 {
-  "name": "slack-helper",
+  "name": "slack-msg-helper",
   "version": "1.0.0",
   "description": "A Nodejs module facilitating Slack messaging.",
   "main": "index.js",
@@ -11,5 +11,19 @@
   "dependencies": {
     "request": "^2.87.0",
     "request-promise": "^4.2.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samsoul007/slack-helper.git"
+  },
+  "keywords": [
+    "slack",
+    "helper",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/samsoul007/slack-helper/issues"
+  },
+  "homepage": "https://github.com/samsoul007/slack-helper#readme"
 }
