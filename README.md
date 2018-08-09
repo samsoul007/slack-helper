@@ -38,7 +38,7 @@ Initialise a post:
 SL.message("my-channel");
 
 // Creating message to group or channel called "my-channel" using the config "slack1"
-SL.message("my-channel").use("Client1")
+SL.message("my-channel").use("slack1")
 ```
 
 ## Posting
@@ -47,17 +47,17 @@ For those example we will use the query variable 'slack':
 
 ```javascript
 // initialise query
-var slack = SL.message("my-channel");
+const myChannel = SL.message("my-channel");
 ```
 
 ### Simple message
 
 ```javascript
-slack.post("my message");
+myChannel.post("my message");
 ```
 
 ### Message with JSON attachement
 
 ```javascript
-slack.post("my message", {...});
+myChannel.post("my message", {...});
 ```
