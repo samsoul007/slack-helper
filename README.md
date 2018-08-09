@@ -43,10 +43,10 @@ SL.message("my-channel").use("slack1")
 
 ## Posting
 
-For those example we will use the query variable 'slack':
+For those examples we will use the query variable 'myChannel':
 
 ```javascript
-// initialise query
+// initialise channel message
 const myChannel = SL.message("my-channel");
 ```
 
